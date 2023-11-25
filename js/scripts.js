@@ -24,8 +24,7 @@ gererTouches();
 window.onload = () => {
     let touches = document.querySelectorAll("span");//on va chercher toutes le stouches qui sont en span
     for (let touche of touches) {
-        touche.addEventListener("click",
-            gererTouches);
+        touche.addEventListener("click", gererTouches);
     }
 }
 //reagit au clic sur les touches
